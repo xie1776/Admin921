@@ -1,0 +1,599 @@
+[ 2016-09-21T17:49:17+08:00 ] 127.0.0.1 /admin/City/index.html
+SQL: SHOW COLUMNS FROM `pa_city` [ RunTime:0.007488s ]
+SQL: SELECT `id`,`name`,`code` FROM `pa_city`  [ RunTime:0.001377s ]
+NOTIC: [8] Undefined variable: key D:\www\Admin\trunk\App\Conf\city.php 第 16 行.
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001348s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001435s ]
+NOTIC: [8] Undefined variable: DB_PREFIX D:\www\Admin\trunk\App\Conf\Admin\config.php 第 68 行.
+NOTIC: [8] Undefined variable: DB_PREFIX D:\www\Admin\trunk\App\Conf\Admin\config.php 第 69 行.
+NOTIC: [8] Undefined variable: DB_PREFIX D:\www\Admin\trunk\App\Conf\Admin\config.php 第 70 行.
+NOTIC: [8] Undefined variable: DB_PREFIX D:\www\Admin\trunk\App\Conf\Admin\config.php 第 71 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000650s ]
+NOTIC: [8] Undefined index: City D:\www\Admin\trunk\App\Lib\Action\Admin\CommonAction.class.php 第 115 行.
+NOTIC: [8] Undefined variable: systemConfig D:\www\Admin\trunk\App\Lib\Action\Admin\CommonAction.class.php 第 48 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `pa_city` LIMIT 1   [ RunTime:0.000269s ]
+SQL: SELECT `id`,`code`,`name`,`area_code`,`citypy` FROM `pa_city` LIMIT 0,20   [ RunTime:0.000230s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: sub D:\www\Admin\trunk\Runtime\Cache\admin\7e2cb2dfb538def4db0f96684b2e6692.php 第 44 行.
+NOTIC: [8] Undefined index: sub D:\www\Admin\trunk\Runtime\Cache\admin\7e2cb2dfb538def4db0f96684b2e6692.php 第 44 行.
+NOTIC: [8] Undefined index: sub D:\www\Admin\trunk\Runtime\Cache\admin\7e2cb2dfb538def4db0f96684b2e6692.php 第 44 行.
+NOTIC: [8] Undefined variable: QRcodeUrl D:\www\Admin\trunk\Runtime\Cache\admin\7e2cb2dfb538def4db0f96684b2e6692.php 第 49 行.
+NOTIC: [8] Undefined variable: vo D:\www\Admin\trunk\Runtime\Cache\admin\7e2cb2dfb538def4db0f96684b2e6692.php 第 66 行.
+NOTIC: [8] Undefined variable: vo D:\www\Admin\trunk\Runtime\Cache\admin\7e2cb2dfb538def4db0f96684b2e6692.php 第 66 行.
+NOTIC: [8] Undefined variable: vo D:\www\Admin\trunk\Runtime\Cache\admin\7e2cb2dfb538def4db0f96684b2e6692.php 第 66 行.
+NOTIC: [8] Undefined variable: vo D:\www\Admin\trunk\Runtime\Cache\admin\7e2cb2dfb538def4db0f96684b2e6692.php 第 66 行.
+NOTIC: [8] Undefined variable: vo D:\www\Admin\trunk\Runtime\Cache\admin\7e2cb2dfb538def4db0f96684b2e6692.php 第 66 行.
+NOTIC: [8] Undefined variable: vo D:\www\Admin\trunk\Runtime\Cache\admin\7e2cb2dfb538def4db0f96684b2e6692.php 第 66 行.
+NOTIC: [8] Undefined variable: vo D:\www\Admin\trunk\Runtime\Cache\admin\7e2cb2dfb538def4db0f96684b2e6692.php 第 66 行.
+NOTIC: [8] Undefined variable: vo D:\www\Admin\trunk\Runtime\Cache\admin\7e2cb2dfb538def4db0f96684b2e6692.php 第 66 行.
+NOTIC: [8] Undefined variable: vo D:\www\Admin\trunk\Runtime\Cache\admin\7e2cb2dfb538def4db0f96684b2e6692.php 第 66 行.
+NOTIC: [8] Undefined variable: vo D:\www\Admin\trunk\Runtime\Cache\admin\7e2cb2dfb538def4db0f96684b2e6692.php 第 66 行.
+NOTIC: [8] Undefined variable: vo D:\www\Admin\trunk\Runtime\Cache\admin\7e2cb2dfb538def4db0f96684b2e6692.php 第 66 行.
+NOTIC: [8] Undefined variable: vo D:\www\Admin\trunk\Runtime\Cache\admin\7e2cb2dfb538def4db0f96684b2e6692.php 第 66 行.
+NOTIC: [8] Undefined variable: vo D:\www\Admin\trunk\Runtime\Cache\admin\7e2cb2dfb538def4db0f96684b2e6692.php 第 66 行.
+NOTIC: [8] Undefined variable: vo D:\www\Admin\trunk\Runtime\Cache\admin\7e2cb2dfb538def4db0f96684b2e6692.php 第 66 行.
+NOTIC: [8] Undefined variable: vo D:\www\Admin\trunk\Runtime\Cache\admin\7e2cb2dfb538def4db0f96684b2e6692.php 第 66 行.
+NOTIC: [8] Undefined variable: vo D:\www\Admin\trunk\Runtime\Cache\admin\7e2cb2dfb538def4db0f96684b2e6692.php 第 66 行.
+NOTIC: [8] Undefined variable: vo D:\www\Admin\trunk\Runtime\Cache\admin\7e2cb2dfb538def4db0f96684b2e6692.php 第 66 行.
+NOTIC: [8] Undefined variable: vo D:\www\Admin\trunk\Runtime\Cache\admin\7e2cb2dfb538def4db0f96684b2e6692.php 第 66 行.
+NOTIC: [8] Undefined variable: vo D:\www\Admin\trunk\Runtime\Cache\admin\7e2cb2dfb538def4db0f96684b2e6692.php 第 66 行.
+NOTIC: [8] Undefined variable: vo D:\www\Admin\trunk\Runtime\Cache\admin\7e2cb2dfb538def4db0f96684b2e6692.php 第 66 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.049922s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049981s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000561s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000479s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000331s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000479s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001993s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001075s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001193s ]
+
+[ 2016-09-21T17:49:19+08:00 ] 127.0.0.1 /admin/City/add.html
+SQL: SHOW COLUMNS FROM `pa_city` [ RunTime:0.007239s ]
+SQL: SELECT `id`,`name`,`code` FROM `pa_city`  [ RunTime:0.000976s ]
+NOTIC: [8] Undefined variable: key D:\www\Admin\trunk\App\Conf\city.php 第 16 行.
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001264s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001380s ]
+NOTIC: [8] Undefined variable: DB_PREFIX D:\www\Admin\trunk\App\Conf\Admin\config.php 第 68 行.
+NOTIC: [8] Undefined variable: DB_PREFIX D:\www\Admin\trunk\App\Conf\Admin\config.php 第 69 行.
+NOTIC: [8] Undefined variable: DB_PREFIX D:\www\Admin\trunk\App\Conf\Admin\config.php 第 70 行.
+NOTIC: [8] Undefined variable: DB_PREFIX D:\www\Admin\trunk\App\Conf\Admin\config.php 第 71 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000888s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000995s ]
+NOTIC: [8] Undefined index: City D:\www\Admin\trunk\App\Lib\Action\Admin\CommonAction.class.php 第 115 行.
+NOTIC: [8] Undefined variable: systemConfig D:\www\Admin\trunk\App\Lib\Action\Admin\CommonAction.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: sub D:\www\Admin\trunk\Runtime\Cache\admin\594487b824d8914421cda2d21a8b3690.php 第 42 行.
+NOTIC: [8] Undefined index: sub D:\www\Admin\trunk\Runtime\Cache\admin\594487b824d8914421cda2d21a8b3690.php 第 42 行.
+NOTIC: [8] Undefined index: sub D:\www\Admin\trunk\Runtime\Cache\admin\594487b824d8914421cda2d21a8b3690.php 第 42 行.
+NOTIC: [8] Undefined variable: QRcodeUrl D:\www\Admin\trunk\Runtime\Cache\admin\594487b824d8914421cda2d21a8b3690.php 第 47 行.
+NOTIC: [8] Undefined variable: info D:\www\Admin\trunk\Runtime\Cache\admin\594487b824d8914421cda2d21a8b3690.php 第 58 行.
+NOTIC: [8] Undefined variable: info D:\www\Admin\trunk\Runtime\Cache\admin\594487b824d8914421cda2d21a8b3690.php 第 68 行.
+NOTIC: [8] Undefined variable: info D:\www\Admin\trunk\Runtime\Cache\admin\594487b824d8914421cda2d21a8b3690.php 第 78 行.
+NOTIC: [8] Undefined variable: info D:\www\Admin\trunk\Runtime\Cache\admin\594487b824d8914421cda2d21a8b3690.php 第 82 行.
+NOTIC: [8] Undefined variable: info D:\www\Admin\trunk\Runtime\Cache\admin\594487b824d8914421cda2d21a8b3690.php 第 85 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021954s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022052s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000765s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001166s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000497s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000795s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003548s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000732s ]
+INFO: [ view_end ] --END-- [ RunTime:0.008618s ]
+
+[ 2016-09-21T17:49:36+08:00 ] 127.0.0.1 /admin/City/index.html
+SQL: SHOW COLUMNS FROM `pa_city` [ RunTime:0.008593s ]
+SQL: SELECT `id`,`name`,`code` FROM `pa_city`  [ RunTime:0.000471s ]
+NOTIC: [8] Undefined variable: key D:\www\Admin\trunk\App\Conf\city.php 第 16 行.
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000783s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000852s ]
+NOTIC: [8] Undefined variable: DB_PREFIX D:\www\Admin\trunk\App\Conf\Admin\config.php 第 68 行.
+NOTIC: [8] Undefined variable: DB_PREFIX D:\www\Admin\trunk\App\Conf\Admin\config.php 第 69 行.
+NOTIC: [8] Undefined variable: DB_PREFIX D:\www\Admin\trunk\App\Conf\Admin\config.php 第 70 行.
+NOTIC: [8] Undefined variable: DB_PREFIX D:\www\Admin\trunk\App\Conf\Admin\config.php 第 71 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000519s ]
+NOTIC: [8] Undefined index: City D:\www\Admin\trunk\App\Lib\Action\Admin\CommonAction.class.php 第 115 行.
+NOTIC: [8] Undefined variable: systemConfig D:\www\Admin\trunk\App\Lib\Action\Admin\CommonAction.class.php 第 48 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `pa_city` LIMIT 1   [ RunTime:0.000259s ]
+SQL: SELECT `id`,`code`,`name`,`area_code`,`citypy` FROM `pa_city` LIMIT 0,20   [ RunTime:0.000315s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: sub D:\www\Admin\trunk\Runtime\Cache\admin\7e2cb2dfb538def4db0f96684b2e6692.php 第 44 行.
+NOTIC: [8] Undefined index: sub D:\www\Admin\trunk\Runtime\Cache\admin\7e2cb2dfb538def4db0f96684b2e6692.php 第 44 行.
+NOTIC: [8] Undefined index: sub D:\www\Admin\trunk\Runtime\Cache\admin\7e2cb2dfb538def4db0f96684b2e6692.php 第 44 行.
+NOTIC: [8] Undefined variable: QRcodeUrl D:\www\Admin\trunk\Runtime\Cache\admin\7e2cb2dfb538def4db0f96684b2e6692.php 第 49 行.
+NOTIC: [8] Undefined variable: vo D:\www\Admin\trunk\Runtime\Cache\admin\7e2cb2dfb538def4db0f96684b2e6692.php 第 66 行.
+NOTIC: [8] Undefined variable: vo D:\www\Admin\trunk\Runtime\Cache\admin\7e2cb2dfb538def4db0f96684b2e6692.php 第 66 行.
+NOTIC: [8] Undefined variable: vo D:\www\Admin\trunk\Runtime\Cache\admin\7e2cb2dfb538def4db0f96684b2e6692.php 第 66 行.
+NOTIC: [8] Undefined variable: vo D:\www\Admin\trunk\Runtime\Cache\admin\7e2cb2dfb538def4db0f96684b2e6692.php 第 66 行.
+NOTIC: [8] Undefined variable: vo D:\www\Admin\trunk\Runtime\Cache\admin\7e2cb2dfb538def4db0f96684b2e6692.php 第 66 行.
+NOTIC: [8] Undefined variable: vo D:\www\Admin\trunk\Runtime\Cache\admin\7e2cb2dfb538def4db0f96684b2e6692.php 第 66 行.
+NOTIC: [8] Undefined variable: vo D:\www\Admin\trunk\Runtime\Cache\admin\7e2cb2dfb538def4db0f96684b2e6692.php 第 66 行.
+NOTIC: [8] Undefined variable: vo D:\www\Admin\trunk\Runtime\Cache\admin\7e2cb2dfb538def4db0f96684b2e6692.php 第 66 行.
+NOTIC: [8] Undefined variable: vo D:\www\Admin\trunk\Runtime\Cache\admin\7e2cb2dfb538def4db0f96684b2e6692.php 第 66 行.
+NOTIC: [8] Undefined variable: vo D:\www\Admin\trunk\Runtime\Cache\admin\7e2cb2dfb538def4db0f96684b2e6692.php 第 66 行.
+NOTIC: [8] Undefined variable: vo D:\www\Admin\trunk\Runtime\Cache\admin\7e2cb2dfb538def4db0f96684b2e6692.php 第 66 行.
+NOTIC: [8] Undefined variable: vo D:\www\Admin\trunk\Runtime\Cache\admin\7e2cb2dfb538def4db0f96684b2e6692.php 第 66 行.
+NOTIC: [8] Undefined variable: vo D:\www\Admin\trunk\Runtime\Cache\admin\7e2cb2dfb538def4db0f96684b2e6692.php 第 66 行.
+NOTIC: [8] Undefined variable: vo D:\www\Admin\trunk\Runtime\Cache\admin\7e2cb2dfb538def4db0f96684b2e6692.php 第 66 行.
+NOTIC: [8] Undefined variable: vo D:\www\Admin\trunk\Runtime\Cache\admin\7e2cb2dfb538def4db0f96684b2e6692.php 第 66 行.
+NOTIC: [8] Undefined variable: vo D:\www\Admin\trunk\Runtime\Cache\admin\7e2cb2dfb538def4db0f96684b2e6692.php 第 66 行.
+NOTIC: [8] Undefined variable: vo D:\www\Admin\trunk\Runtime\Cache\admin\7e2cb2dfb538def4db0f96684b2e6692.php 第 66 行.
+NOTIC: [8] Undefined variable: vo D:\www\Admin\trunk\Runtime\Cache\admin\7e2cb2dfb538def4db0f96684b2e6692.php 第 66 行.
+NOTIC: [8] Undefined variable: vo D:\www\Admin\trunk\Runtime\Cache\admin\7e2cb2dfb538def4db0f96684b2e6692.php 第 66 行.
+NOTIC: [8] Undefined variable: vo D:\www\Admin\trunk\Runtime\Cache\admin\7e2cb2dfb538def4db0f96684b2e6692.php 第 66 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013234s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013293s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000429s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000375s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000260s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000463s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001671s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001084s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001190s ]
+
+[ 2016-09-21T17:49:47+08:00 ] 127.0.0.1 /admin/City/index/p/2.html
+SQL: SHOW COLUMNS FROM `pa_city` [ RunTime:0.006652s ]
+SQL: SELECT `id`,`name`,`code` FROM `pa_city`  [ RunTime:0.000810s ]
+NOTIC: [8] Undefined variable: key D:\www\Admin\trunk\App\Conf\city.php 第 16 行.
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001260s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001371s ]
+NOTIC: [8] Undefined variable: DB_PREFIX D:\www\Admin\trunk\App\Conf\Admin\config.php 第 68 行.
+NOTIC: [8] Undefined variable: DB_PREFIX D:\www\Admin\trunk\App\Conf\Admin\config.php 第 69 行.
+NOTIC: [8] Undefined variable: DB_PREFIX D:\www\Admin\trunk\App\Conf\Admin\config.php 第 70 行.
+NOTIC: [8] Undefined variable: DB_PREFIX D:\www\Admin\trunk\App\Conf\Admin\config.php 第 71 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000925s ]
+NOTIC: [8] Undefined index: City D:\www\Admin\trunk\App\Lib\Action\Admin\CommonAction.class.php 第 115 行.
+NOTIC: [8] Undefined variable: systemConfig D:\www\Admin\trunk\App\Lib\Action\Admin\CommonAction.class.php 第 48 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `pa_city` LIMIT 1   [ RunTime:0.000623s ]
+SQL: SELECT `id`,`code`,`name`,`area_code`,`citypy` FROM `pa_city` LIMIT 20,20   [ RunTime:0.000692s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: sub D:\www\Admin\trunk\Runtime\Cache\admin\7e2cb2dfb538def4db0f96684b2e6692.php 第 44 行.
+NOTIC: [8] Undefined index: sub D:\www\Admin\trunk\Runtime\Cache\admin\7e2cb2dfb538def4db0f96684b2e6692.php 第 44 行.
+NOTIC: [8] Undefined index: sub D:\www\Admin\trunk\Runtime\Cache\admin\7e2cb2dfb538def4db0f96684b2e6692.php 第 44 行.
+NOTIC: [8] Undefined variable: QRcodeUrl D:\www\Admin\trunk\Runtime\Cache\admin\7e2cb2dfb538def4db0f96684b2e6692.php 第 49 行.
+NOTIC: [8] Undefined variable: vo D:\www\Admin\trunk\Runtime\Cache\admin\7e2cb2dfb538def4db0f96684b2e6692.php 第 66 行.
+NOTIC: [8] Undefined variable: vo D:\www\Admin\trunk\Runtime\Cache\admin\7e2cb2dfb538def4db0f96684b2e6692.php 第 66 行.
+NOTIC: [8] Undefined variable: vo D:\www\Admin\trunk\Runtime\Cache\admin\7e2cb2dfb538def4db0f96684b2e6692.php 第 66 行.
+NOTIC: [8] Undefined variable: vo D:\www\Admin\trunk\Runtime\Cache\admin\7e2cb2dfb538def4db0f96684b2e6692.php 第 66 行.
+NOTIC: [8] Undefined variable: vo D:\www\Admin\trunk\Runtime\Cache\admin\7e2cb2dfb538def4db0f96684b2e6692.php 第 66 行.
+NOTIC: [8] Undefined variable: vo D:\www\Admin\trunk\Runtime\Cache\admin\7e2cb2dfb538def4db0f96684b2e6692.php 第 66 行.
+NOTIC: [8] Undefined variable: vo D:\www\Admin\trunk\Runtime\Cache\admin\7e2cb2dfb538def4db0f96684b2e6692.php 第 66 行.
+NOTIC: [8] Undefined variable: vo D:\www\Admin\trunk\Runtime\Cache\admin\7e2cb2dfb538def4db0f96684b2e6692.php 第 66 行.
+NOTIC: [8] Undefined variable: vo D:\www\Admin\trunk\Runtime\Cache\admin\7e2cb2dfb538def4db0f96684b2e6692.php 第 66 行.
+NOTIC: [8] Undefined variable: vo D:\www\Admin\trunk\Runtime\Cache\admin\7e2cb2dfb538def4db0f96684b2e6692.php 第 66 行.
+NOTIC: [8] Undefined variable: vo D:\www\Admin\trunk\Runtime\Cache\admin\7e2cb2dfb538def4db0f96684b2e6692.php 第 66 行.
+NOTIC: [8] Undefined variable: vo D:\www\Admin\trunk\Runtime\Cache\admin\7e2cb2dfb538def4db0f96684b2e6692.php 第 66 行.
+NOTIC: [8] Undefined variable: vo D:\www\Admin\trunk\Runtime\Cache\admin\7e2cb2dfb538def4db0f96684b2e6692.php 第 66 行.
+NOTIC: [8] Undefined variable: vo D:\www\Admin\trunk\Runtime\Cache\admin\7e2cb2dfb538def4db0f96684b2e6692.php 第 66 行.
+NOTIC: [8] Undefined variable: vo D:\www\Admin\trunk\Runtime\Cache\admin\7e2cb2dfb538def4db0f96684b2e6692.php 第 66 行.
+NOTIC: [8] Undefined variable: vo D:\www\Admin\trunk\Runtime\Cache\admin\7e2cb2dfb538def4db0f96684b2e6692.php 第 66 行.
+NOTIC: [8] Undefined variable: vo D:\www\Admin\trunk\Runtime\Cache\admin\7e2cb2dfb538def4db0f96684b2e6692.php 第 66 行.
+NOTIC: [8] Undefined variable: vo D:\www\Admin\trunk\Runtime\Cache\admin\7e2cb2dfb538def4db0f96684b2e6692.php 第 66 行.
+NOTIC: [8] Undefined variable: vo D:\www\Admin\trunk\Runtime\Cache\admin\7e2cb2dfb538def4db0f96684b2e6692.php 第 66 行.
+NOTIC: [8] Undefined variable: vo D:\www\Admin\trunk\Runtime\Cache\admin\7e2cb2dfb538def4db0f96684b2e6692.php 第 66 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015238s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015329s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000431s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000382s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000238s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000451s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001643s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001252s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001496s ]
+
+[ 2016-09-21T17:49:50+08:00 ] 127.0.0.1 /admin/City/index/p/3.html
+SQL: SHOW COLUMNS FROM `pa_city` [ RunTime:0.006248s ]
+SQL: SELECT `id`,`name`,`code` FROM `pa_city`  [ RunTime:0.000845s ]
+NOTIC: [8] Undefined variable: key D:\www\Admin\trunk\App\Conf\city.php 第 16 行.
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001280s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001391s ]
+NOTIC: [8] Undefined variable: DB_PREFIX D:\www\Admin\trunk\App\Conf\Admin\config.php 第 68 行.
+NOTIC: [8] Undefined variable: DB_PREFIX D:\www\Admin\trunk\App\Conf\Admin\config.php 第 69 行.
+NOTIC: [8] Undefined variable: DB_PREFIX D:\www\Admin\trunk\App\Conf\Admin\config.php 第 70 行.
+NOTIC: [8] Undefined variable: DB_PREFIX D:\www\Admin\trunk\App\Conf\Admin\config.php 第 71 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000940s ]
+NOTIC: [8] Undefined index: City D:\www\Admin\trunk\App\Lib\Action\Admin\CommonAction.class.php 第 115 行.
+NOTIC: [8] Undefined variable: systemConfig D:\www\Admin\trunk\App\Lib\Action\Admin\CommonAction.class.php 第 48 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `pa_city` LIMIT 1   [ RunTime:0.000350s ]
+SQL: SELECT `id`,`code`,`name`,`area_code`,`citypy` FROM `pa_city` LIMIT 40,20   [ RunTime:0.000405s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: sub D:\www\Admin\trunk\Runtime\Cache\admin\7e2cb2dfb538def4db0f96684b2e6692.php 第 44 行.
+NOTIC: [8] Undefined index: sub D:\www\Admin\trunk\Runtime\Cache\admin\7e2cb2dfb538def4db0f96684b2e6692.php 第 44 行.
+NOTIC: [8] Undefined index: sub D:\www\Admin\trunk\Runtime\Cache\admin\7e2cb2dfb538def4db0f96684b2e6692.php 第 44 行.
+NOTIC: [8] Undefined variable: QRcodeUrl D:\www\Admin\trunk\Runtime\Cache\admin\7e2cb2dfb538def4db0f96684b2e6692.php 第 49 行.
+NOTIC: [8] Undefined variable: vo D:\www\Admin\trunk\Runtime\Cache\admin\7e2cb2dfb538def4db0f96684b2e6692.php 第 66 行.
+NOTIC: [8] Undefined variable: vo D:\www\Admin\trunk\Runtime\Cache\admin\7e2cb2dfb538def4db0f96684b2e6692.php 第 66 行.
+NOTIC: [8] Undefined variable: vo D:\www\Admin\trunk\Runtime\Cache\admin\7e2cb2dfb538def4db0f96684b2e6692.php 第 66 行.
+NOTIC: [8] Undefined variable: vo D:\www\Admin\trunk\Runtime\Cache\admin\7e2cb2dfb538def4db0f96684b2e6692.php 第 66 行.
+NOTIC: [8] Undefined variable: vo D:\www\Admin\trunk\Runtime\Cache\admin\7e2cb2dfb538def4db0f96684b2e6692.php 第 66 行.
+NOTIC: [8] Undefined variable: vo D:\www\Admin\trunk\Runtime\Cache\admin\7e2cb2dfb538def4db0f96684b2e6692.php 第 66 行.
+NOTIC: [8] Undefined variable: vo D:\www\Admin\trunk\Runtime\Cache\admin\7e2cb2dfb538def4db0f96684b2e6692.php 第 66 行.
+NOTIC: [8] Undefined variable: vo D:\www\Admin\trunk\Runtime\Cache\admin\7e2cb2dfb538def4db0f96684b2e6692.php 第 66 行.
+NOTIC: [8] Undefined variable: vo D:\www\Admin\trunk\Runtime\Cache\admin\7e2cb2dfb538def4db0f96684b2e6692.php 第 66 行.
+NOTIC: [8] Undefined variable: vo D:\www\Admin\trunk\Runtime\Cache\admin\7e2cb2dfb538def4db0f96684b2e6692.php 第 66 行.
+NOTIC: [8] Undefined variable: vo D:\www\Admin\trunk\Runtime\Cache\admin\7e2cb2dfb538def4db0f96684b2e6692.php 第 66 行.
+NOTIC: [8] Undefined variable: vo D:\www\Admin\trunk\Runtime\Cache\admin\7e2cb2dfb538def4db0f96684b2e6692.php 第 66 行.
+NOTIC: [8] Undefined variable: vo D:\www\Admin\trunk\Runtime\Cache\admin\7e2cb2dfb538def4db0f96684b2e6692.php 第 66 行.
+NOTIC: [8] Undefined variable: vo D:\www\Admin\trunk\Runtime\Cache\admin\7e2cb2dfb538def4db0f96684b2e6692.php 第 66 行.
+NOTIC: [8] Undefined variable: vo D:\www\Admin\trunk\Runtime\Cache\admin\7e2cb2dfb538def4db0f96684b2e6692.php 第 66 行.
+NOTIC: [8] Undefined variable: vo D:\www\Admin\trunk\Runtime\Cache\admin\7e2cb2dfb538def4db0f96684b2e6692.php 第 66 行.
+NOTIC: [8] Undefined variable: vo D:\www\Admin\trunk\Runtime\Cache\admin\7e2cb2dfb538def4db0f96684b2e6692.php 第 66 行.
+NOTIC: [8] Undefined variable: vo D:\www\Admin\trunk\Runtime\Cache\admin\7e2cb2dfb538def4db0f96684b2e6692.php 第 66 行.
+NOTIC: [8] Undefined variable: vo D:\www\Admin\trunk\Runtime\Cache\admin\7e2cb2dfb538def4db0f96684b2e6692.php 第 66 行.
+NOTIC: [8] Undefined variable: vo D:\www\Admin\trunk\Runtime\Cache\admin\7e2cb2dfb538def4db0f96684b2e6692.php 第 66 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017897s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017975s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000420s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000392s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000301s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000587s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001865s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000825s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000943s ]
+
+[ 2016-09-21T17:50:08+08:00 ] 127.0.0.1 /admin/Member/index.html
+SQL: SHOW COLUMNS FROM `pa_city` [ RunTime:0.006486s ]
+SQL: SELECT `id`,`name`,`code` FROM `pa_city`  [ RunTime:0.000836s ]
+NOTIC: [8] Undefined variable: key D:\www\Admin\trunk\App\Conf\city.php 第 16 行.
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001270s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001381s ]
+NOTIC: [8] Undefined variable: DB_PREFIX D:\www\Admin\trunk\App\Conf\Admin\config.php 第 68 行.
+NOTIC: [8] Undefined variable: DB_PREFIX D:\www\Admin\trunk\App\Conf\Admin\config.php 第 69 行.
+NOTIC: [8] Undefined variable: DB_PREFIX D:\www\Admin\trunk\App\Conf\Admin\config.php 第 70 行.
+NOTIC: [8] Undefined variable: DB_PREFIX D:\www\Admin\trunk\App\Conf\Admin\config.php 第 71 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001151s ]
+NOTIC: [8] Undefined variable: systemConfig D:\www\Admin\trunk\App\Lib\Action\Admin\CommonAction.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `pa_member` [ RunTime:0.007520s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pa_member` LIMIT 1   [ RunTime:0.000744s ]
+SQL: SELECT * FROM `pa_member` ORDER BY uid desc LIMIT 0,20   [ RunTime:0.000614s ]
+NOTIC: [8] Undefined index: showpage D:\www\Admin\trunk\App\Lib\Action\Admin\MemberAction.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: sub D:\www\Admin\trunk\Runtime\Cache\admin\002461b6a41ece079280d22a1b28dc6e.php 第 44 行.
+NOTIC: [8] Undefined variable: QRcodeUrl D:\www\Admin\trunk\Runtime\Cache\admin\002461b6a41ece079280d22a1b28dc6e.php 第 49 行.
+NOTIC: [8] Undefined variable: vo D:\www\Admin\trunk\Runtime\Cache\admin\002461b6a41ece079280d22a1b28dc6e.php 第 66 行.
+NOTIC: [8] Undefined index: bj D:\www\Admin\trunk\Runtime\Cache\admin\002461b6a41ece079280d22a1b28dc6e.php 第 70 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.025325s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025404s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000386s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000360s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000247s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000439s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001572s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000539s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000594s ]
+
+[ 2016-09-21T17:50:11+08:00 ] 127.0.0.1 /admin/News/index.html
+SQL: SHOW COLUMNS FROM `pa_city` [ RunTime:0.006244s ]
+SQL: SELECT `id`,`name`,`code` FROM `pa_city`  [ RunTime:0.000804s ]
+NOTIC: [8] Undefined variable: key D:\www\Admin\trunk\App\Conf\city.php 第 16 行.
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001260s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001374s ]
+NOTIC: [8] Undefined variable: DB_PREFIX D:\www\Admin\trunk\App\Conf\Admin\config.php 第 68 行.
+NOTIC: [8] Undefined variable: DB_PREFIX D:\www\Admin\trunk\App\Conf\Admin\config.php 第 69 行.
+NOTIC: [8] Undefined variable: DB_PREFIX D:\www\Admin\trunk\App\Conf\Admin\config.php 第 70 行.
+NOTIC: [8] Undefined variable: DB_PREFIX D:\www\Admin\trunk\App\Conf\Admin\config.php 第 71 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000904s ]
+NOTIC: [8] Undefined variable: systemConfig D:\www\Admin\trunk\App\Lib\Action\Admin\CommonAction.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `pa_news` [ RunTime:0.007489s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pa_news` LIMIT 1   [ RunTime:0.000510s ]
+SQL: SHOW COLUMNS FROM `pa_news` [ RunTime:0.008082s ]
+SQL: SELECT `id`,`title`,`status`,`published`,`cid`,`aid` FROM `pa_news` ORDER BY `published` DESC LIMIT 0 , 20   [ RunTime:0.000232s ]
+SQL: SHOW COLUMNS FROM `pa_admin` [ RunTime:0.003953s ]
+SQL: SELECT `aid`,`email`,`nickname` FROM `pa_admin`  [ RunTime:0.000245s ]
+SQL: SHOW COLUMNS FROM `pa_category` [ RunTime:0.004390s ]
+SQL: SELECT `cid`,`name` FROM `pa_category`  [ RunTime:0.000302s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: sub D:\www\Admin\trunk\Runtime\Cache\admin\4aa7a79c17fff337ff43271342ada5ff.php 第 44 行.
+NOTIC: [8] Undefined index: sub D:\www\Admin\trunk\Runtime\Cache\admin\4aa7a79c17fff337ff43271342ada5ff.php 第 44 行.
+NOTIC: [8] Undefined index: sub D:\www\Admin\trunk\Runtime\Cache\admin\4aa7a79c17fff337ff43271342ada5ff.php 第 44 行.
+NOTIC: [8] Undefined variable: QRcodeUrl D:\www\Admin\trunk\Runtime\Cache\admin\4aa7a79c17fff337ff43271342ada5ff.php 第 49 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014238s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014305s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000420s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000370s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000305s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000684s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001966s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001254s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001341s ]
+
+[ 2016-09-21T17:50:13+08:00 ] 127.0.0.1 /admin/SysData/index.html
+SQL: SHOW COLUMNS FROM `pa_city` [ RunTime:0.006725s ]
+SQL: SELECT `id`,`name`,`code` FROM `pa_city`  [ RunTime:0.000850s ]
+NOTIC: [8] Undefined variable: key D:\www\Admin\trunk\App\Conf\city.php 第 16 行.
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001258s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001369s ]
+NOTIC: [8] Undefined variable: DB_PREFIX D:\www\Admin\trunk\App\Conf\Admin\config.php 第 68 行.
+NOTIC: [8] Undefined variable: DB_PREFIX D:\www\Admin\trunk\App\Conf\Admin\config.php 第 69 行.
+NOTIC: [8] Undefined variable: DB_PREFIX D:\www\Admin\trunk\App\Conf\Admin\config.php 第 70 行.
+NOTIC: [8] Undefined variable: DB_PREFIX D:\www\Admin\trunk\App\Conf\Admin\config.php 第 71 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000907s ]
+NOTIC: [8] Undefined variable: systemConfig D:\www\Admin\trunk\App\Lib\Action\Admin\CommonAction.class.php 第 48 行.
+SQL: SHOW TABLE STATUS [ RunTime:0.012309s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: sub D:\www\Admin\trunk\Runtime\Cache\admin\231ae0774cdd1ebb2d9ce08f8337a7c3.php 第 44 行.
+NOTIC: [8] Undefined index: sub D:\www\Admin\trunk\Runtime\Cache\admin\231ae0774cdd1ebb2d9ce08f8337a7c3.php 第 44 行.
+NOTIC: [8] Undefined index: sub D:\www\Admin\trunk\Runtime\Cache\admin\231ae0774cdd1ebb2d9ce08f8337a7c3.php 第 44 行.
+NOTIC: [8] Undefined index: sub D:\www\Admin\trunk\Runtime\Cache\admin\231ae0774cdd1ebb2d9ce08f8337a7c3.php 第 44 行.
+NOTIC: [8] Undefined variable: QRcodeUrl D:\www\Admin\trunk\Runtime\Cache\admin\231ae0774cdd1ebb2d9ce08f8337a7c3.php 第 49 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012659s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012720s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000463s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000434s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000291s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000601s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001955s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001429s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001542s ]
+
+[ 2016-09-21T17:59:30+08:00 ] 127.0.0.1 /admin/Site/index.html
+SQL: SHOW COLUMNS FROM `pa_city` [ RunTime:0.006913s ]
+SQL: SELECT `id`,`name`,`code` FROM `pa_city`  [ RunTime:0.000936s ]
+NOTIC: [8] Undefined variable: key D:\www\Admin\trunk\App\Conf\city.php 第 16 行.
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001760s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001888s ]
+NOTIC: [8] Undefined variable: DB_PREFIX D:\www\Admin\trunk\App\Conf\Admin\config.php 第 68 行.
+NOTIC: [8] Undefined variable: DB_PREFIX D:\www\Admin\trunk\App\Conf\Admin\config.php 第 69 行.
+NOTIC: [8] Undefined variable: DB_PREFIX D:\www\Admin\trunk\App\Conf\Admin\config.php 第 70 行.
+NOTIC: [8] Undefined variable: DB_PREFIX D:\www\Admin\trunk\App\Conf\Admin\config.php 第 71 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001181s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001334s ]
+NOTIC: [8] Undefined variable: systemConfig D:\www\Admin\trunk\App\Lib\Action\Admin\CommonAction.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: SITE_INFO D:\www\Admin\trunk\Runtime\Cache\admin\5b6b12ec6d549e6657fec279b3c045d1.php 第 5 行.
+NOTIC: [8] Undefined index: WEB_ROOT D:\www\Admin\trunk\Runtime\Cache\admin\5b6b12ec6d549e6657fec279b3c045d1.php 第 8 行.
+NOTIC: [8] Undefined variable: currentNav D:\www\Admin\trunk\Runtime\Cache\admin\5b6b12ec6d549e6657fec279b3c045d1.php 第 30 行.
+NOTIC: [8] Undefined index: sub D:\www\Admin\trunk\Runtime\Cache\admin\5b6b12ec6d549e6657fec279b3c045d1.php 第 43 行.
+NOTIC: [8] Undefined index: sub D:\www\Admin\trunk\Runtime\Cache\admin\5b6b12ec6d549e6657fec279b3c045d1.php 第 43 行.
+NOTIC: [8] Undefined index: sub D:\www\Admin\trunk\Runtime\Cache\admin\5b6b12ec6d549e6657fec279b3c045d1.php 第 43 行.
+NOTIC: [8] Undefined variable: QRcodeUrl D:\www\Admin\trunk\Runtime\Cache\admin\5b6b12ec6d549e6657fec279b3c045d1.php 第 48 行.
+NOTIC: [8] Undefined index: SITE_INFO D:\www\Admin\trunk\Runtime\Cache\admin\5b6b12ec6d549e6657fec279b3c045d1.php 第 107 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.024257s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024340s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000513s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000485s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000332s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001184s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002695s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001200s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001276s ]
+
+[ 2016-09-21T18:00:05+08:00 ] 127.0.0.1 /admin/Site/index.html
+SQL: SHOW COLUMNS FROM `pa_city` [ RunTime:0.008760s ]
+SQL: SELECT `id`,`name`,`code` FROM `pa_city`  [ RunTime:0.000675s ]
+NOTIC: [8] Undefined variable: key D:\www\Admin\trunk\App\Conf\city.php 第 16 行.
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001031s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001114s ]
+NOTIC: [8] Undefined variable: DB_PREFIX D:\www\Admin\trunk\App\Conf\Admin\config.php 第 68 行.
+NOTIC: [8] Undefined variable: DB_PREFIX D:\www\Admin\trunk\App\Conf\Admin\config.php 第 69 行.
+NOTIC: [8] Undefined variable: DB_PREFIX D:\www\Admin\trunk\App\Conf\Admin\config.php 第 70 行.
+NOTIC: [8] Undefined variable: DB_PREFIX D:\www\Admin\trunk\App\Conf\Admin\config.php 第 71 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000884s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000974s ]
+NOTIC: [8] Undefined variable: systemConfig D:\www\Admin\trunk\App\Lib\Action\Admin\CommonAction.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: SITE_INFO D:\www\Admin\trunk\Runtime\Cache\admin\5b6b12ec6d549e6657fec279b3c045d1.php 第 5 行.
+NOTIC: [8] Undefined index: WEB_ROOT D:\www\Admin\trunk\Runtime\Cache\admin\5b6b12ec6d549e6657fec279b3c045d1.php 第 8 行.
+NOTIC: [8] Undefined variable: currentNav D:\www\Admin\trunk\Runtime\Cache\admin\5b6b12ec6d549e6657fec279b3c045d1.php 第 30 行.
+NOTIC: [8] Undefined index: sub D:\www\Admin\trunk\Runtime\Cache\admin\5b6b12ec6d549e6657fec279b3c045d1.php 第 43 行.
+NOTIC: [8] Undefined index: sub D:\www\Admin\trunk\Runtime\Cache\admin\5b6b12ec6d549e6657fec279b3c045d1.php 第 43 行.
+NOTIC: [8] Undefined index: sub D:\www\Admin\trunk\Runtime\Cache\admin\5b6b12ec6d549e6657fec279b3c045d1.php 第 43 行.
+NOTIC: [8] Undefined variable: QRcodeUrl D:\www\Admin\trunk\Runtime\Cache\admin\5b6b12ec6d549e6657fec279b3c045d1.php 第 48 行.
+NOTIC: [8] Undefined index: SITE_INFO D:\www\Admin\trunk\Runtime\Cache\admin\5b6b12ec6d549e6657fec279b3c045d1.php 第 107 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012796s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012862s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000501s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000481s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000332s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000489s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001949s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001050s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001130s ]
+
+[ 2016-09-21T18:00:10+08:00 ] 127.0.0.1 /admin/Public/logout.html
+SQL: SHOW COLUMNS FROM `pa_city` [ RunTime:0.006855s ]
+SQL: SELECT `id`,`name`,`code` FROM `pa_city`  [ RunTime:0.000804s ]
+NOTIC: [8] Undefined variable: key D:\www\Admin\trunk\App\Conf\city.php 第 16 行.
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001336s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001520s ]
+NOTIC: [8] Undefined variable: DB_PREFIX D:\www\Admin\trunk\App\Conf\Admin\config.php 第 68 行.
+NOTIC: [8] Undefined variable: DB_PREFIX D:\www\Admin\trunk\App\Conf\Admin\config.php 第 69 行.
+NOTIC: [8] Undefined variable: DB_PREFIX D:\www\Admin\trunk\App\Conf\Admin\config.php 第 70 行.
+NOTIC: [8] Undefined variable: DB_PREFIX D:\www\Admin\trunk\App\Conf\Admin\config.php 第 71 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000921s ]
+
+[ 2016-09-21T18:00:11+08:00 ] 127.0.0.1 /admin/Index/index.html
+SQL: SHOW COLUMNS FROM `pa_city` [ RunTime:0.004044s ]
+SQL: SELECT `id`,`name`,`code` FROM `pa_city`  [ RunTime:0.000514s ]
+NOTIC: [8] Undefined variable: key D:\www\Admin\trunk\App\Conf\city.php 第 16 行.
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000750s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000818s ]
+NOTIC: [8] Undefined variable: DB_PREFIX D:\www\Admin\trunk\App\Conf\Admin\config.php 第 68 行.
+NOTIC: [8] Undefined variable: DB_PREFIX D:\www\Admin\trunk\App\Conf\Admin\config.php 第 69 行.
+NOTIC: [8] Undefined variable: DB_PREFIX D:\www\Admin\trunk\App\Conf\Admin\config.php 第 70 行.
+NOTIC: [8] Undefined variable: DB_PREFIX D:\www\Admin\trunk\App\Conf\Admin\config.php 第 71 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000532s ]
+
+[ 2016-09-21T18:00:12+08:00 ] 127.0.0.1 /admin/Public/index.html
+SQL: SHOW COLUMNS FROM `pa_city` [ RunTime:0.007557s ]
+SQL: SELECT `id`,`name`,`code` FROM `pa_city`  [ RunTime:0.000853s ]
+NOTIC: [8] Undefined variable: key D:\www\Admin\trunk\App\Conf\city.php 第 16 行.
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001319s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001665s ]
+NOTIC: [8] Undefined variable: DB_PREFIX D:\www\Admin\trunk\App\Conf\Admin\config.php 第 68 行.
+NOTIC: [8] Undefined variable: DB_PREFIX D:\www\Admin\trunk\App\Conf\Admin\config.php 第 69 行.
+NOTIC: [8] Undefined variable: DB_PREFIX D:\www\Admin\trunk\App\Conf\Admin\config.php 第 70 行.
+NOTIC: [8] Undefined variable: DB_PREFIX D:\www\Admin\trunk\App\Conf\Admin\config.php 第 71 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000540s ]
+NOTIC: [8] Undefined variable: systemConfig D:\www\Admin\trunk\App\Lib\Action\Admin\PublicAction.class.php 第 57 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022652s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022728s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000405s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000373s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000243s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000450s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001613s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000526s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000578s ]
+
+[ 2016-09-21T18:00:14+08:00 ] 127.0.0.1 /admin/Public/verify_code.html
+SQL: SHOW COLUMNS FROM `pa_city` [ RunTime:0.006491s ]
+SQL: SELECT `id`,`name`,`code` FROM `pa_city`  [ RunTime:0.001027s ]
+NOTIC: [8] Undefined variable: key D:\www\Admin\trunk\App\Conf\city.php 第 16 行.
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001380s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001501s ]
+NOTIC: [8] Undefined variable: DB_PREFIX D:\www\Admin\trunk\App\Conf\Admin\config.php 第 68 行.
+NOTIC: [8] Undefined variable: DB_PREFIX D:\www\Admin\trunk\App\Conf\Admin\config.php 第 69 行.
+NOTIC: [8] Undefined variable: DB_PREFIX D:\www\Admin\trunk\App\Conf\Admin\config.php 第 70 行.
+NOTIC: [8] Undefined variable: DB_PREFIX D:\www\Admin\trunk\App\Conf\Admin\config.php 第 71 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001357s ]
+
+[ 2016-09-21T18:00:45+08:00 ] 127.0.0.1 /admin/Public/index.html
+SQL: SHOW COLUMNS FROM `pa_city` [ RunTime:0.006762s ]
+SQL: SELECT `id`,`name`,`code` FROM `pa_city`  [ RunTime:0.000953s ]
+NOTIC: [8] Undefined variable: key D:\www\Admin\trunk\App\Conf\city.php 第 16 行.
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001276s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001395s ]
+NOTIC: [8] Undefined variable: DB_PREFIX D:\www\Admin\trunk\App\Conf\Admin\config.php 第 68 行.
+NOTIC: [8] Undefined variable: DB_PREFIX D:\www\Admin\trunk\App\Conf\Admin\config.php 第 69 行.
+NOTIC: [8] Undefined variable: DB_PREFIX D:\www\Admin\trunk\App\Conf\Admin\config.php 第 70 行.
+NOTIC: [8] Undefined variable: DB_PREFIX D:\www\Admin\trunk\App\Conf\Admin\config.php 第 71 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000939s ]
+NOTIC: [8] Undefined variable: systemConfig D:\www\Admin\trunk\App\Lib\Action\Admin\PublicAction.class.php 第 57 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011876s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000369s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000384s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000237s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000457s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001604s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000504s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000555s ]
+
+[ 2016-09-21T18:00:46+08:00 ] 127.0.0.1 /admin/Public/verify_code.html
+SQL: SHOW COLUMNS FROM `pa_city` [ RunTime:0.007788s ]
+SQL: SELECT `id`,`name`,`code` FROM `pa_city`  [ RunTime:0.000811s ]
+NOTIC: [8] Undefined variable: key D:\www\Admin\trunk\App\Conf\city.php 第 16 行.
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001259s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001374s ]
+NOTIC: [8] Undefined variable: DB_PREFIX D:\www\Admin\trunk\App\Conf\Admin\config.php 第 68 行.
+NOTIC: [8] Undefined variable: DB_PREFIX D:\www\Admin\trunk\App\Conf\Admin\config.php 第 69 行.
+NOTIC: [8] Undefined variable: DB_PREFIX D:\www\Admin\trunk\App\Conf\Admin\config.php 第 70 行.
+NOTIC: [8] Undefined variable: DB_PREFIX D:\www\Admin\trunk\App\Conf\Admin\config.php 第 71 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000989s ]
+
+[ 2016-09-21T18:01:08+08:00 ] 127.0.0.1 /admin/Public/index.html
+SQL: SHOW COLUMNS FROM `pa_city` [ RunTime:0.006736s ]
+SQL: SELECT `id`,`name`,`code` FROM `pa_city`  [ RunTime:0.000998s ]
+NOTIC: [8] Undefined variable: key D:\www\Admin\trunk\App\Conf\city.php 第 16 行.
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001274s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001383s ]
+NOTIC: [8] Undefined variable: DB_PREFIX D:\www\Admin\trunk\App\Conf\Admin\config.php 第 68 行.
+NOTIC: [8] Undefined variable: DB_PREFIX D:\www\Admin\trunk\App\Conf\Admin\config.php 第 69 行.
+NOTIC: [8] Undefined variable: DB_PREFIX D:\www\Admin\trunk\App\Conf\Admin\config.php 第 70 行.
+NOTIC: [8] Undefined variable: DB_PREFIX D:\www\Admin\trunk\App\Conf\Admin\config.php 第 71 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000939s ]
+NOTIC: [8] Undefined variable: systemConfig D:\www\Admin\trunk\App\Lib\Action\Admin\PublicAction.class.php 第 57 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012318s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012449s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000831s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000964s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000640s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002321s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005039s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000684s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000756s ]
+
+[ 2016-09-21T18:01:10+08:00 ] 127.0.0.1 /admin/Public/verify_code.html
+SQL: SHOW COLUMNS FROM `pa_city` [ RunTime:0.006269s ]
+SQL: SELECT `id`,`name`,`code` FROM `pa_city`  [ RunTime:0.001106s ]
+NOTIC: [8] Undefined variable: key D:\www\Admin\trunk\App\Conf\city.php 第 16 行.
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001310s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001437s ]
+NOTIC: [8] Undefined variable: DB_PREFIX D:\www\Admin\trunk\App\Conf\Admin\config.php 第 68 行.
+NOTIC: [8] Undefined variable: DB_PREFIX D:\www\Admin\trunk\App\Conf\Admin\config.php 第 69 行.
+NOTIC: [8] Undefined variable: DB_PREFIX D:\www\Admin\trunk\App\Conf\Admin\config.php 第 70 行.
+NOTIC: [8] Undefined variable: DB_PREFIX D:\www\Admin\trunk\App\Conf\Admin\config.php 第 71 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001142s ]
+
