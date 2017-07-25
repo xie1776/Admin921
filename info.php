@@ -7,4 +7,5 @@
 	}
 
 	echo encrypt('123456');
+	echo "<br/>";
 ?>
