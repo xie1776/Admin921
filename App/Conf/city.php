@@ -12,8 +12,8 @@
 		foreach ($list as $key => $val) {
 			$citys[$val['code']] = $val['name'];
 		}
-		unset($key,$val);
 		$cache->set($key,$citys,24*3600);
+		unset($key,$val);
 	}
 
 	return array(

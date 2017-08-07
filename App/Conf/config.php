@@ -2,7 +2,7 @@
 
 return array(
     /* 数据库设置 */
-    'DB_DSN'=>'mysql://root:root@localhost:3306/admin',
+    'DB_DSN'=>'mysqli://root:root@localhost:3306/admin',
 
     //改用线上数据
     // 'DB_TYPE'   => 'mysql', // 数据库类型
